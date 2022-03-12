@@ -30,7 +30,7 @@ export default function ApplicationForm({ value, setValue }) {
 
                 <InputField type='number' label='Loan Amount' value={amount} setValue={updateAmount} />
                 <InputField type='number' label='Interest' value={interest} setValue={updateInterest} />
-                <InputField type='number' label='Period of Loan' value={tenure} setValue={updateTenure} />
+                <InputField type='number' label='Period of Loan(in months)' value={tenure} setValue={updateTenure} />
 
             </Box>
             <FormPagination setValue={setValue} value={value}  />
