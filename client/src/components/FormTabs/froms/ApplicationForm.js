@@ -17,9 +17,17 @@ export default function ApplicationForm({ value, setValue }) {
                 <Typography variant='h5' fontWeight='600' mb='20px' >
                     Loan Details
                 </Typography>
-                <Typography color='#65cf87' textAlign='center' mb='17px' >
-                    {errorMsg} {successMsg}
-                </Typography>
+        
+                {errorMsg ?
+                    <Typography color='#e84141' textAlign='center' mb='17px' >
+                        {errorMsg}
+                    </Typography> 
+                    :
+                    <Typography color='#65cf87' textAlign='center' mb='17px' >
+                        {successMsg}
+                    </Typography>
+                }
+
                 <InputField type='number' label='Loan Amount' value={amount} setValue={updateAmount} />
                 <InputField type='number' label='Interest' value={interest} setValue={updateInterest} />
                 <InputField type='number' label='Period of Loan' value={tenure} setValue={updateTenure} />
