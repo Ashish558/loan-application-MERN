@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Box, Tab, Tabs } from '@mui/material';
 import TabPanel from './tabPanel';
-import PersonalForm from './froms/personalForm';
-import BusinessForm from './froms/BusinessForm';
-import ApplicationForm from './froms/ApplicationForm';
+import PersonalForm from './forms/personalForm';
+import BusinessForm from './forms/BusinessForm';
+import ApplicationForm from './forms/ApplicationForm';
 
 
 function a11yProps(index) {
