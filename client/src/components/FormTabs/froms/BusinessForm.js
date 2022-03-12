@@ -12,7 +12,7 @@ export default function BusinessForm({ value, setValue }) {
     return (
         <Box>
             <Box mb='20px' >
-                <Typography variant='h5' fontsize='18px' fontWeight='600' mb='20px' >
+                <Typography variant='h5' fontWeight='600' mb='20px' >
                     Business Details
                 </Typography>
                 <InputField type='text' label='Business Name' value={businessName} setValue={updateBusinessName} />
