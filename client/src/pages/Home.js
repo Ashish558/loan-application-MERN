@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import FormTabs from '../components/FormTabs/fromTabs';
+import FormTabs from '../components/FormTabs/formTabs';
 
 
 
